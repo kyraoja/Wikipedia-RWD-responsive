@@ -1,1 +1,45 @@
-/* Stylesheet */
+/* LAYOUT */
+
+.container{
+	background: #0FF;
+	margin: 0 auto;
+	width: 960px;	
+}
+
+nav{
+	background: #FFC;
+	clear:both;
+	width: 960px;
+}
+
+article{
+	background: #FCF;
+	float: left;
+	width: 640px;
+}
+
+aside{
+	background: #660;
+	float: left;
+	width: 320px;
+}
+
+footer{
+	background: red;
+	clear: both;
+	width: 960px;
+}
+
+/* Typography */
+
+h1{
+	font-size: 3em; /* 48px/16=3em */
+}
+
+h2{
+	font-size: 2.25em; /* 36px/16=2.25em */
+}
+
+h3{
+	font-size: 1.5em; /* 24px/16=1.5em */
+}
