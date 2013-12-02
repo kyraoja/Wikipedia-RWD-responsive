@@ -3,31 +3,32 @@
 .container{
 	background: #0FF;
 	margin: 0 auto;
-	width: 960px;	
+	width: 90%; /* 960px  DON'T USE 100% IN THE CONTAINER, BUT YOU CAN IN EVERYTHING ELSE*/
+	max-width: 960px;
 }
 
 nav{
 	background: #FFC;
 	clear:both;
-	width: 960px;
+	width: 100%; /* 960px */
 }
 
 article{
 	background: #FCF;
 	float: left;
-	width: 640px;
+	width: 66.66666666%; /* 640px / 960px= 66.6666666 */
 }
 
 aside{
 	background: #660;
 	float: left;
-	width: 320px;
+	width: 33.33333333%; /* 320px / 960px= 33.333333*/
 }
 
 footer{
-	background: red;
+	background: tomato;
 	clear: both;
-	width: 960px;
+	width: 100%; /* 960px */
 }
 
 /* Typography */
@@ -43,3 +44,22 @@ h2{
 h3{
 	font-size: 1.5em; /* 24px/16=1.5em */
 }
+
+p{
+	font-size: 1.25em; /* 20px/16=1.25em */
+	line-height: 1.25em; /* 20px/16=1.25em */
+}
+
+/* ALL LINKS */
+
+a{
+	color: #a10022;
+	font-size: 1.25em;
+}
+
+footer a{
+	font-size: 1em; /* 20px/20px=1em */
+}
+
+/* FLUID GRID */
+
